@@ -1,0 +1,7 @@
+Camera:
+python -m Camera.camera
+
+CNN:
+python -m CNN.train
+python -m CNN.test
+

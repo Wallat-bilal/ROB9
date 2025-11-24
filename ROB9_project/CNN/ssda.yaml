@@ -1,11 +1,12 @@
 # CNN/ssda.yaml
 
-path: C:/Users/walat/PycharmProjects/ROB9_project/CNN/Data/SSDA
+path: /ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/Data/SSDA
 
 train: images/train
 val: images/val
-test: images/val   # or a separate test split later
+test: images/val
 
 names:
   0: pest
   1: scratch
+

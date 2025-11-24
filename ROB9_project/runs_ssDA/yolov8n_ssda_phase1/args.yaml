@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: C:\Users\walat\PycharmProjects\ROB9_project\CNN\ssda.yaml
+data: /ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/ssda.yaml
 epochs: 20
 time: null
 patience: 20
@@ -10,9 +10,9 @@ imgsz: 640
 save: true
 save_period: -1
 cache: false
-device: null
+device: '1'
 workers: 8
-project: C:\Users\walat\PycharmProjects\ROB9_project\runs_ssDA
+project: /ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/runs_ssDA
 name: yolov8n_ssda_phase1
 exist_ok: true
 pretrained: true
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\walat\PycharmProjects\ROB9_project\runs_ssDA\yolov8n_ssda_phase1
+save_dir: /ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/runs_ssDA/yolov8n_ssda_phase1

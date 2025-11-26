@@ -1,0 +1,20 @@
+path: /home/wallat/Desktop/ROB9/ROB9_project/CNN/Data/AppleRF
+
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 5
+names:
+  0: apple
+  1: bruise
+  2: pest
+  3: rotten
+  4: scratch
+
+roboflow:
+  workspace: doom-es4dt
+  project: apple-4akkp
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/doom-es4dt/apple-4akkp/dataset/1

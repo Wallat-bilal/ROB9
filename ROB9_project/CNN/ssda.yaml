@@ -1,6 +1,4 @@
-# CNN/ssda.yaml
-
-path: /ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/Data/SSDA
+path: /home/wallat/Desktop/ROB9/ROB9_project/CNN/Data/SSDA
 
 train: images/train
 val: images/val
@@ -9,4 +7,3 @@ test: images/val
 names:
   0: pest
   1: scratch
-

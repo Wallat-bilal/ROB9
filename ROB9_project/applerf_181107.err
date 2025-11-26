@@ -1,0 +1,81 @@
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/trainRF.py", line 97, in <module>
+    main()
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/trainRF.py", line 93, in main
+    train_variant(model_name=model_name)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/trainRF.py", line 68, in train_variant
+    model_phase2.train(
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/engine/model.py", line 773, in train
+    self.trainer.train()
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 243, in train
+    self._do_train()
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 427, in _do_train
+    loss, self.loss_items = self.model(batch)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 136, in forward
+    return self.loss(x, *args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 327, in loss
+    preds = self.forward(batch["img"])
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 137, in forward
+    return self.predict(x, *args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 154, in predict
+    return self._predict_once(x, profile, visualize, embed)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/nn/tasks.py", line 176, in _predict_once
+    x = m(x)  # run
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/nn/modules/block.py", line 306, in forward
+    y.extend(m(y[-1]) for m in self.m)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/nn/modules/block.py", line 306, in <genexpr>
+    y.extend(m(y[-1]) for m in self.m)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/nn/modules/block.py", line 476, in forward
+    return x + self.cv2(self.cv1(x)) if self.add else self.cv2(self.cv1(x))
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/nn/modules/conv.py", line 78, in forward
+    return self.act(self.bn(self.conv(x)))
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 432, in forward
+    return F.silu(input, inplace=self.inplace)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/nn/functional.py", line 2379, in silu
+    return torch._C._nn.silu_(input)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 20.00 MiB. GPU 0 has a total capacity of 22.03 GiB of which 16.00 MiB is free. Including non-PyTorch memory, this process has 4.51 GiB memory in use. Process 1280097 has 17.46 GiB memory in use. Of the allocated memory 4.13 GiB is allocated by PyTorch, and 110.68 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+Exception in thread Thread-106 (_pin_memory_loop):
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/utils/data/_utils/pin_memory.py", line 59, in _pin_memory_loop
+    do_one_step()
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/utils/data/_utils/pin_memory.py", line 35, in do_one_step
+    r = in_queue.get(timeout=MP_STATUS_CHECK_INTERVAL)
+  File "/usr/lib/python3.10/multiprocessing/queues.py", line 122, in get
+    return _ForkingPickler.loads(res)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/torch/multiprocessing/reductions.py", line 541, in rebuild_storage_fd
+    fd = df.detach()
+  File "/usr/lib/python3.10/multiprocessing/resource_sharer.py", line 58, in detach
+    return reduction.recv_handle(conn)
+  File "/usr/lib/python3.10/multiprocessing/reduction.py", line 189, in recv_handle
+    return recvfds(s, 1)[0]
+  File "/usr/lib/python3.10/multiprocessing/reduction.py", line 157, in recvfds
+    msg, ancdata, flags, addr = sock.recvmsg(1, socket.CMSG_SPACE(bytes_size))
+ConnectionResetError: [Errno 104] Connection reset by peer

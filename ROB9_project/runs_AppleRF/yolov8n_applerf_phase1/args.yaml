@@ -1,7 +1,7 @@
 task: detect
 mode: train
 model: yolov8n.pt
-data: /home/wallat/Desktop/ROB9/ROB9_project/CNN/Data/AppleRF/data.yaml
+data: /ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/Data/AppleRF/data.yaml
 epochs: 20
 time: null
 patience: 20
@@ -12,7 +12,7 @@ save_period: -1
 cache: false
 device: '0'
 workers: 8
-project: /home/wallat/Desktop/ROB9/ROB9_project/runs_AppleRF
+project: /ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/runs_AppleRF
 name: yolov8n_applerf_phase1
 exist_ok: true
 pretrained: true
@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: /home/wallat/Desktop/ROB9/ROB9_project/runs_AppleRF/yolov8n_applerf_phase1
+save_dir: /ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/runs_AppleRF/yolov8n_applerf_phase1

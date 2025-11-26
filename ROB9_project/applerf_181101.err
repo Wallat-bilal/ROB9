@@ -1,0 +1,31 @@
+Traceback (most recent call last):
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 649, in get_dataset
+    data = check_det_dataset(self.args.data)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/data/utils.py", line 462, in check_det_dataset
+    raise FileNotFoundError(m)
+FileNotFoundError: Dataset '/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/Data/AppleRF/data.yaml' images not found, missing path '/home/wallat/Desktop/ROB9/ROB9_project/CNN/Data/AppleRF/valid/images'
+Note dataset download directory is '/ceph/home/student.aau.dk/wbilal18/ROB9/datasets'. You can update this in '/ceph/home/student.aau.dk/wbilal18/.config/Ultralytics/settings.json'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/trainRF.py", line 97, in <module>
+    main()
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/trainRF.py", line 93, in main
+    train_variant(model_name=model_name)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/trainRF.py", line 43, in train_variant
+    model.train(
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/engine/model.py", line 768, in train
+    self.trainer = (trainer or self._smart_load("trainer"))(overrides=args, _callbacks=self.callbacks)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/models/yolo/detect/train.py", line 63, in __init__
+    super().__init__(cfg, overrides, _callbacks)
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 163, in __init__
+    self.data = self.get_dataset()
+  File "/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/.venv/lib/python3.10/site-packages/ultralytics/engine/trainer.py", line 653, in get_dataset
+    raise RuntimeError(emojis(f"Dataset '{clean_url(self.args.data)}' error ❌ {e}")) from e
+RuntimeError: Dataset '/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/Data/AppleRF/data.yaml' error ❌ Dataset '/ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/Data/AppleRF/data.yaml' images not found, missing path '/home/wallat/Desktop/ROB9/ROB9_project/CNN/Data/AppleRF/valid/images'
+Note dataset download directory is '/ceph/home/student.aau.dk/wbilal18/ROB9/datasets'. You can update this in '/ceph/home/student.aau.dk/wbilal18/.config/Ultralytics/settings.json'

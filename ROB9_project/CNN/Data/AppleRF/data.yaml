@@ -1,5 +1,5 @@
-path: /home/wallat/Desktop/ROB9/ROB9_project/CNN/Data/AppleRF
-
+#path: /home/wallat/Desktop/ROB9/ROB9_project/CNN/Data/AppleRF
+path: /ceph/home/student.aau.dk/wbilal18/ROB9/ROB9/ROB9_project/CNN/Data/AppleRF
 train: train/images
 val: valid/images
 test: test/images

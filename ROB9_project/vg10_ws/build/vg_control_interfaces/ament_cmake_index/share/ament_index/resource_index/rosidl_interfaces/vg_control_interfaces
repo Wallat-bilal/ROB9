@@ -1,0 +1,8 @@
+srv/VacuumRelease.idl
+srv/VacuumRelease.srv
+srv/VacuumRelease_Request.msg
+srv/VacuumRelease_Response.msg
+srv/VacuumSet.idl
+srv/VacuumSet.srv
+srv/VacuumSet_Request.msg
+srv/VacuumSet_Response.msg

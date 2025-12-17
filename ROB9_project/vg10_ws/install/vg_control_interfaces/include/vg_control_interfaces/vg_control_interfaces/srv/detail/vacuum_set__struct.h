@@ -1,0 +1,1 @@
+/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces/rosidl_generator_c/vg_control_interfaces/srv/detail/vacuum_set__struct.h

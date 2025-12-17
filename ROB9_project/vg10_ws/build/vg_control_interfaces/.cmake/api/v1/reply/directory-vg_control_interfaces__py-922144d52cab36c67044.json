@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "vg_control_interfaces__py",
+		"source" : "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces/vg_control_interfaces__py"
+	}
+}

@@ -1,0 +1,79 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces/vg_control_interfaces__py/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 34,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "vg_control_interfaces::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "vg_control_interfaces__py::@978f133f01683809ef8d",
+	"name" : "vg_control_interfaces__py",
+	"paths" : 
+	{
+		"build" : "vg_control_interfaces__py",
+		"source" : "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces/vg_control_interfaces__py"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces/vg_control_interfaces__py/CMakeFiles/vg_control_interfaces__py",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces/vg_control_interfaces__py/CMakeFiles/vg_control_interfaces__py.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces/rosidl_generator_py/vg_control_interfaces/_vg_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

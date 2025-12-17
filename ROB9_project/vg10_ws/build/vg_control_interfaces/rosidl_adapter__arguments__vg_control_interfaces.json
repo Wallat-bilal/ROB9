@@ -1,0 +1,7 @@
+{
+  "package_name": "vg_control_interfaces",
+  "non_idl_tuples": [
+    "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/src/vg_control_interfaces:srv/VacuumSet.srv",
+    "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/src/vg_control_interfaces:srv/VacuumRelease.srv"
+  ]
+}

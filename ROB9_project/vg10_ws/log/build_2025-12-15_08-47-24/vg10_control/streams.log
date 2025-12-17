@@ -1,0 +1,24 @@
+[0.587s] Invoking command in '/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control': AMENT_PREFIX_PATH=/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces LD_LIBRARY_PATH=/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/lib/python3.10/site-packages:/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control/build --no-deps symlink_data
+[0.815s] running develop
+[0.975s] running egg_info
+[0.976s] creating vg10_control.egg-info
+[0.976s] writing vg10_control.egg-info/PKG-INFO
+[0.976s] writing dependency_links to vg10_control.egg-info/dependency_links.txt
+[0.976s] writing entry points to vg10_control.egg-info/entry_points.txt
+[0.976s] writing requirements to vg10_control.egg-info/requires.txt
+[0.976s] writing top-level names to vg10_control.egg-info/top_level.txt
+[0.976s] writing manifest file 'vg10_control.egg-info/SOURCES.txt'
+[0.978s] reading manifest file 'vg10_control.egg-info/SOURCES.txt'
+[0.978s] writing manifest file 'vg10_control.egg-info/SOURCES.txt'
+[0.979s] running build_ext
+[0.979s] Creating /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/lib/python3.10/site-packages/vg10-control.egg-link (link to .)
+[0.980s] Installing vg10_gripper_node script to /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/lib/vg10_control
+[0.980s] 
+[0.980s] Installed /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control
+[0.980s] running symlink_data
+[0.980s] creating /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/share/ament_index
+[0.980s] creating /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/share/ament_index/resource_index
+[0.986s] creating /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/share/ament_index/resource_index/packages
+[0.986s] symbolically linking /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control/resource/vg10_control -> /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/share/ament_index/resource_index/packages
+[0.987s] symbolically linking /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control/package.xml -> /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/share/vg10_control
+[1.016s] Invoked command in '/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control' returned '0': AMENT_PREFIX_PATH=/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces LD_LIBRARY_PATH=/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/lib/python3.10/site-packages:/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control/build --no-deps symlink_data

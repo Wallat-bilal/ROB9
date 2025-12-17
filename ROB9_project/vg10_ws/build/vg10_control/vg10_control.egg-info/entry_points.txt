@@ -1,0 +1,3 @@
+[console_scripts]
+vg10_gripper_node = vg10_control.vg10_gripper_node:main
+

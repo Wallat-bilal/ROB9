@@ -1,0 +1,3 @@
+# Request fields
+int32 channel_a  # Vacuum level for channel A (0-255)
+int32 channel_b  # Vacuum level for channel B (0-255)

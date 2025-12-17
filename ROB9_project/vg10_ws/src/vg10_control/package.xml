@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>vg10_control</name>
+  <version>0.0.0</version>
+  <description>VG10 Modbus TCP control node</description>
+  <maintainer email="cankhjorth@gmail.com">chrishj</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>vg_control_interfaces</depend>
+
+  <!-- pymodbus (install via apt or pip). Declare as exec_depend for rosdep/clarity -->
+  <exec_depend>python3-pymodbus</exec_depend>
+
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
+

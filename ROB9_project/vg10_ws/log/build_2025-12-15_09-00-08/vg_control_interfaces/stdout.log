@@ -1,0 +1,165 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_generator_c[0m
+[  2%] Built target vg_control_interfaces__cpp
+[ 12%] Built target vg_control_interfaces__rosidl_generator_c
+[ 12%] Built target ament_cmake_python_symlink_vg_control_interfaces
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_typesupport_fastrtps_c[0m
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_typesupport_c[0m
+[ 53%] Built target vg_control_interfaces__rosidl_typesupport_cpp
+[ 53%] Built target vg_control_interfaces__rosidl_typesupport_c
+[ 53%] Built target vg_control_interfaces__rosidl_typesupport_introspection_c
+[ 53%] Built target vg_control_interfaces__rosidl_typesupport_introspection_cpp
+[ 64%] Built target vg_control_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 74%] Built target vg_control_interfaces__rosidl_typesupport_fastrtps_c
+[ 74%] Built target vg_control_interfaces
+[ 76%] Built target vg_control_interfaces__py
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_generator_py[0m
+[ 84%] Built target vg_control_interfaces__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target vg_control_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[100%] Built target vg_control_interfaces__rosidl_typesupport_c__pyext
+[100%] Built target vg_control_interfaces__rosidl_typesupport_introspection_c__pyext
+[100%] Built target vg_control_interfaces__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing vg_control_interfaces.egg-info/PKG-INFO
+writing dependency_links to vg_control_interfaces.egg-info/dependency_links.txt
+writing top-level names to vg_control_interfaces.egg-info/top_level.txt
+reading manifest file 'vg_control_interfaces.egg-info/SOURCES.txt'
+writing manifest file 'vg_control_interfaces.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_vg_control_interfaces_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/ament_index/resource_index/rosidl_interfaces/vg_control_interfaces
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/msg/rosidl_generator_c__visibility_control.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__functions.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__struct.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__type_support.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__functions.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__struct.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__type_support.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/vacuum_release.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/vacuum_set.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/environment/library_path.sh
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/environment/library_path.dsv
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__rosidl_typesupport_introspection_c.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__builder.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__struct.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__traits.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__type_support.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__builder.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__struct.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__traits.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__type_support.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/vacuum_release.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/vacuum_set.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__rosidl_typesupport_fastrtps_cpp.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_release__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/include/vg_control_interfaces/vg_control_interfaces/srv/detail/vacuum_set__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/environment/pythonpath.sh
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/__init__.py
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/_vg_control_interfaces_s.ep.rosidl_typesupport_c.c
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/_vg_control_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/_vg_control_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/libvg_control_interfaces__rosidl_generator_py.so
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/srv/__init__.py
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/srv/_vacuum_release.py
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/srv/_vacuum_release_s.c
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/srv/_vacuum_set.py
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/srv/_vacuum_set_s.c
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/vg_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/vg_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/vg_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/vg_control_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/vg_control_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/vg_control_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/srv/VacuumSet.idl
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/srv/VacuumRelease.idl
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/srv/VacuumSet.srv
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/srv/VacuumSet_Request.msg
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/srv/VacuumSet_Response.msg
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/srv/VacuumRelease.srv
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/srv/VacuumRelease_Request.msg
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/srv/VacuumRelease_Response.msg
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/ament_index/resource_index/package_run_dependencies/vg_control_interfaces
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/ament_index/resource_index/parent_prefix_path/vg_control_interfaces
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/environment/path.sh
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/environment/path.dsv
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/local_setup.bash
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/local_setup.sh
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/local_setup.zsh
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/local_setup.dsv
+-- Symlinking: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/package.dsv
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/ament_index/resource_index/packages/vg_control_interfaces
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/rosidl_cmake-extras.cmake
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfacesConfig.cmake
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfacesConfig-version.cmake
+-- Up-to-date symlink: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/package.xml
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib/libvg_control_interfaces__rosidl_generator_c.so
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib/libvg_control_interfaces__rosidl_typesupport_fastrtps_c.so
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib/libvg_control_interfaces__rosidl_typesupport_introspection_c.so
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib/libvg_control_interfaces__rosidl_typesupport_c.so
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib/libvg_control_interfaces__rosidl_typesupport_fastrtps_cpp.so
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib/libvg_control_interfaces__rosidl_typesupport_introspection_cpp.so
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib/libvg_control_interfaces__rosidl_typesupport_cpp.so
+Listing '/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces'...
+Compiling '/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/__init__.py'...
+Listing '/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/local/lib/python3.10/dist-packages/vg_control_interfaces/srv'...
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/lib/libvg_control_interfaces__rosidl_generator_py.so
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/export_vg_control_interfaces__rosidl_generator_cExport.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/export_vg_control_interfaces__rosidl_generator_cExport-noconfig.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/export_vg_control_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/export_vg_control_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfaces__rosidl_typesupport_introspection_cExport.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfaces__rosidl_typesupport_cExport.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/export_vg_control_interfaces__rosidl_generator_cppExport.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/export_vg_control_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/export_vg_control_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfaces__rosidl_typesupport_cppExport.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/vg_control_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/export_vg_control_interfaces__rosidl_generator_pyExport.cmake
+-- Up-to-date: /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg_control_interfaces/share/vg_control_interfaces/cmake/export_vg_control_interfaces__rosidl_generator_pyExport-noconfig.cmake

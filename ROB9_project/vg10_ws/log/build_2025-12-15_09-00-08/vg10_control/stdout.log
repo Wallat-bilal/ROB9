@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing vg10_control.egg-info/PKG-INFO
+writing dependency_links to vg10_control.egg-info/dependency_links.txt
+writing entry points to vg10_control.egg-info/entry_points.txt
+writing requirements to vg10_control.egg-info/requires.txt
+writing top-level names to vg10_control.egg-info/top_level.txt
+reading manifest file 'vg10_control.egg-info/SOURCES.txt'
+writing manifest file 'vg10_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/lib/python3.10/site-packages/vg10-control.egg-link (link to .)
+Installing vg10_gripper_node script to /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/install/vg10_control/lib/vg10_control
+
+Installed /home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg10_control
+running symlink_data

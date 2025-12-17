@@ -4,11 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ad806833-13db-403e-8f3d-84cffacfa05d" name="Changes" comment="" />
+    <list default="true" id="ad806833-13db-403e-8f3d-84cffacfa05d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ROB9_project/UR5/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/UR5/compute_homography.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/UR5/ur5_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/UR5/ur_controller.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/UR5/uv_corner_recorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/UR5/uv_to_robot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/UR5/zone_recorder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/gripper/vg10_clint.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/gripper/vg10_gripper.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/gripper/vg10_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/gripper/vg10_urscript_node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/main_backup1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/main_backup2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/main_backup3thatworks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/main_backup4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/main_backup5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/main_godlytier_of_apple_picking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/main_golden_backup_that_i_could_use_for_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/main_goldenbackup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/vg10_ws/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ROB9_project/vg10_ws/run_vacuum_3s.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ROB9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ROB9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/CNN/Data/AppleRF/data.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/ROB9_project/CNN/Data/AppleRF/data.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/CNN/Data/AppleRF/valid/labels.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ROB9_project/CNN/Data/AppleRF/valid/labels.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/Camera/camera__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ROB9_project/Camera/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/Camera/camera_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/ROB9_project/Camera/camera_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/UR5/UR5.py" beforeDir="false" afterPath="$PROJECT_DIR$/ROB9_project/Camera/calibration notes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/UR5/UR5__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/ROB9_project/Camera/camera_calibration.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/applerf_181101.err" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/applerf_181101.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/applerf_181107.err" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/applerf_181107.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/applerf_181130.err" beforeDir="false" afterPath="$PROJECT_DIR$/ROB9_project/Camera/camera_cnn_RF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/applerf_181130.out" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/ROB9_project/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/yolo_ssda_179725.err" beforeDir="false" afterPath="$PROJECT_DIR$/ROB9_project/Camera/print_intrinsics.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ROB9_project/yolo_ssda_179725.out" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,23 +68,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.train.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/wallat/Desktop/ROB9/ROB9_project",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.UR_controller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camera.executor&quot;: &quot;Run&quot;,
+    &quot;Python.camera_cnn_RF.executor&quot;: &quot;Run&quot;,
+    &quot;Python.compute_homography.executor&quot;: &quot;Run&quot;,
+    &quot;Python.gripper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.preview.executor&quot;: &quot;Run&quot;,
+    &quot;Python.print_intrinsics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run_vacuum_3s.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rune_vacuum_3s.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ur5_controller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ur_controller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.uv_to_robot.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vg10_clint.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vg10_gripper.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vg10_gripper_ros.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vg10_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.vg10_urscript_node.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/wallat/Desktop/ROB9&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ROB9_project/gripper" />
+      <recent name="$PROJECT_DIR$/ROB9_project/vg10_control" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-f69e5c277ee4-cbfc7b97e6b2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.27397.106" />
+        <option value="bundled-python-sdk-0978a7220b69-9867c7d4c0a4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.28294.336" />
       </set>
     </attachedChunks>
   </component>

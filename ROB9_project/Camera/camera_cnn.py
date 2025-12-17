@@ -24,24 +24,13 @@ APPLE_MIN_RED_FOR_DEFECT = 0.45  # 45% of pixels in box must be red (tune as nee
 
 
 def get_model_path() -> Path:
-    """
-    Returns the path to your best trained YOLO model.
 
-    Assumes this file is at:
-        ROB9_project/Camera/camera_cnn.py
-
-    and the weights are at:
-        ROB9_project/runs_ssDA/yolov8s_ssda_phase2/weights/best.pt
-    """
     project_root = Path(__file__).resolve().parents[1]
     return project_root / "runs_ssDA" / "yolov8s_ssda_phase2" / "weights" / "best.pt"
 
 
 def load_yolo_model() -> YOLO:
-    """
-    Load the YOLO model on GPU only.
-    Raises an error if CUDA is not available.
-    """
+
     if not torch.cuda.is_available():
         raise RuntimeError(
             "[YOLO] CUDA is not available, but GPU-only mode was requested. "
@@ -71,15 +60,7 @@ def load_yolo_model() -> YOLO:
 # -------------------------------------------------------------------------
 
 def compute_red_ratio_bgr(image_bgr: np.ndarray) -> float:
-    """
-    Estimate how much of the image is "red" using HSV thresholding.
 
-    Returns:
-        red_ratio in [0, 1] = red_pixels / total_pixels
-
-    Note:
-        image_bgr should be a non-empty BGR image (np.ndarray).
-    """
     if image_bgr is None or image_bgr.size == 0:
         return 0.0
 
@@ -117,19 +98,7 @@ def run_yolo_on_frame(
     conf_th: float = 0.5,
     red_threshold: float = 0.5,
 ):
-    """
-    Run YOLO on a single BGR frame and return:
-      - annotated_frame (BGR with boxes/labels and overlays)
-      - list of valid defects [(class_name, confidence), ...]
-      - decision: "accept", "reject_defect", or "reject_color"
-      - red_ratio: fraction of red pixels in [0, 1] over the whole frame
 
-    Inference is forced onto GPU device 0.
-
-    A detection is only considered a valid defect if the red ratio inside
-    its bounding box is >= APPLE_MIN_RED_FOR_DEFECT. This filters out
-    detections on non-apple objects like white toilet paper.
-    """
     # --- YOLO inference (GPU only) ---
     results = model(
         frame_bgr,
@@ -263,16 +232,7 @@ def run_yolo_on_frame(
 
 
 def preview_rgb_ir_depth_with_yolo():
-    """
-    Main preview:
-      - RGB stream + YOLOv8s apple defect detection (pest/scratch) on GPU,
-        filtered so defects are only counted on "red-enough" regions.
-      - Redness estimation (%) on RGB (whole frame)
-      - IR stream for visualisation
-      - Depth stream (colormap) for visualisation and future UR5 3D work
 
-    Press 'q' or ESC to quit.
-    """
     # Load YOLO model (GPU only)
     model = load_yolo_model()
 

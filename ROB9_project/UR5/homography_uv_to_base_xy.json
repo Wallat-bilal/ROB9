@@ -1,0 +1,92 @@
+{
+  "robot_model": "10",
+  "source": "/home/wallat/Desktop/ROB9/ROB9_project/UR5/uv_tcp_poses.json",
+  "labels": [
+    "top_left_corner1",
+    "top_right_corner2",
+    "top_right_corner3",
+    "top_right_corner4",
+    "top_right_corner5",
+    "top_right_corner6",
+    "top_left_corner1",
+    "top_left_corner2",
+    "top_left_corner3",
+    "top_left_corner4",
+    "top_left_corner5",
+    "top_left_corner6",
+    "bottom_left_corner1",
+    "bottom_left_corner2",
+    "bottom_left_corner3",
+    "bottom_left_corner4",
+    "bottom_left_corner5",
+    "bottom_left_corner6",
+    "bottom_right_corner1",
+    "bottom_right_corner2",
+    "bottom_right_corner3",
+    "bottom_right_corner4",
+    "bottom_right_corner5",
+    "bottom_right_corner6"
+  ],
+  "inliers": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    0
+  ],
+  "H_uv_to_xy": [
+    [
+      -0.0014033306663158366,
+      0.00017345480556609232,
+      0.6748730058395981
+    ],
+    [
+      0.00015414685952658166,
+      0.0011028687400890095,
+      -1.039090035407278
+    ],
+    [
+      -0.0001514262722218634,
+      0.00024321065497465814,
+      1.0
+    ]
+  ],
+  "H_xy_to_uv": [
+    [
+      -768.5714681186616,
+      5.2832726070400655,
+      524.1779328121096
+    ],
+    [
+      -1.8135377424409744,
+      737.7005402592303,
+      767.7611881653764
+    ],
+    [
+      -0.11594084065113332,
+      -0.1786166052955906,
+      0.8926466089088773
+    ]
+  ],
+  "rmse_m": 0.012795545372897864,
+  "note": "Maps image pixel (u,v) from the SAME view used during calibration -> robot base (x,y) on table plane."
+}

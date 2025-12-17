@@ -1,0 +1,4 @@
+source;share/vg_control_interfaces/local_setup.bash
+source;share/vg_control_interfaces/local_setup.dsv
+source;share/vg_control_interfaces/local_setup.sh
+source;share/vg_control_interfaces/local_setup.zsh

@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from vg_control_interfaces/srv/VacuumSet.srv
+// generated code does not contain a copyright notice
+
+
+module vg_control_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request fields")
+    struct VacuumSet_Request {
+      @verbatim (language="comment", text=
+        "Vacuum level for channel A (0-255)")
+      int32 channel_a;
+
+      @verbatim (language="comment", text=
+        "Vacuum level for channel B (0-255)")
+      int32 channel_b;
+    };
+    @verbatim (language="comment", text=
+      "Response fields")
+    struct VacuumSet_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

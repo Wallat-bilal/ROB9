@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/vg10_control
+vg10_control/__init__.py
+vg10_control/vg10_gripper_node.py
+vg10_control.egg-info/PKG-INFO
+vg10_control.egg-info/SOURCES.txt
+vg10_control.egg-info/dependency_links.txt
+vg10_control.egg-info/entry_points.txt
+vg10_control.egg-info/requires.txt
+vg10_control.egg-info/top_level.txt
+vg10_control.egg-info/zip-safe

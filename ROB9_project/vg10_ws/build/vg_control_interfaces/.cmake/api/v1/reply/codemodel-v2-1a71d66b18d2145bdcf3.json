@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-75a8341ea2a7acf626bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "vg_control_interfaces__py",
+					"jsonFile" : "directory-vg_control_interfaces__py-922144d52cab36c67044.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces/vg_control_interfaces__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "vg_control_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_vg_control_interfaces_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_vg_control_interfaces_egg-78ce4dbb6824d1f37114.json",
+					"name" : "ament_cmake_python_build_vg_control_interfaces_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_vg_control_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_vg_control_interfaces-51de2a97ef3a05a88451.json",
+					"name" : "ament_cmake_python_symlink_vg_control_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d7437a869ef7c88460cb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces-b847193343cb973e71d4.json",
+					"name" : "vg_control_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__cpp-6d728305043b1debaa58.json",
+					"name" : "vg_control_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vg_control_interfaces__py::@978f133f01683809ef8d",
+					"jsonFile" : "target-vg_control_interfaces__py-554c42f437a259b23dda.json",
+					"name" : "vg_control_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_generator_c-b110ca3fb5dd25c643bf.json",
+					"name" : "vg_control_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_generator_py-44819dca646713be6121.json",
+					"name" : "vg_control_interfaces__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_typesupport_c-13a07205fc8c3c0f14e0.json",
+					"name" : "vg_control_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_typesupport_c__pyext-77b2c5f1719b6926401d.json",
+					"name" : "vg_control_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_typesupport_cpp-b839516586efeca49585.json",
+					"name" : "vg_control_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_typesupport_fastrtps_c-c3a57115203726a72470.json",
+					"name" : "vg_control_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_typesupport_fastrtps_c__pyext-e4b971f81b8bd88df9a6.json",
+					"name" : "vg_control_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_typesupport_fastrtps_cpp-3b7955fa2035511d8c90.json",
+					"name" : "vg_control_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_typesupport_introspection_c-68809a36f444c2eddc46.json",
+					"name" : "vg_control_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_typesupport_introspection_c__pyext-1529cbbd36bc6d5f8632.json",
+					"name" : "vg_control_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces__rosidl_typesupport_introspection_cpp-bb69f62042805586ac1f.json",
+					"name" : "vg_control_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "vg_control_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-vg_control_interfaces_uninstall-c314d3f29da6f6604be7.json",
+					"name" : "vg_control_interfaces_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/build/vg_control_interfaces",
+		"source" : "/home/wallat/Desktop/ROB9/ROB9_project/vg10_ws/src/vg_control_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
